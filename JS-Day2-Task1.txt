@@ -1,0 +1,61 @@
+
+              Write a blog on the Difference between document and window objects.
+
+
+                                   Document Object
+
+1. The document object represent a web page that is loaded in the browser.
+2. By accessing the document object, we can access the element in the HTML page.
+3. With the help of document objects, we can add dynamic content to our web page. 
+4. Document is the child of window which represents the html file produced by browser.
+5. Documents has some properties which contains title, URL, cookies, cache, etc.
+
+Syntax:
+
+document.property_name;
+
+
+                                     Window Object
+
+1. The window object is the topmost object of the DOM hierarchy. 
+2. It represents a browser window or frame that displays the contents of the webpage. 
+3. Whenever a window appears on the screen to display the contents of the document,
+the window object is created. 
+4. It is the main Javascript object root. 
+5. It is the global object in a browser to access the benefits or functions particularly to 
+a window.
+
+Syntax:
+
+window.property_name;
+
+
+                                    Window Vs Document: 
+
+1. Document represents any HTML document or web page that is loaded in the browser whereas 
+windows represents a browser window or frame that displays the contents of the webpage.
+
+
+2. Document is loaded inside the window while window is the very first object that is loaded 
+in the browser.
+
+
+3. All the tags, elements with attributes in HTML are part of the document. Global objects, 
+functions, and variables of JavaScript are members of the window object.
+
+
+4. We can access the document from a window using the (window. document) while we can access 
+the window from the window only. i.e. window.window.
+
+
+5. The document is part of BOM (browser object model) and DOM (Document object model) but the
+window is part of BOM, not DOM.
+
+
+6. Properties of document objects such as title, body, cookies, etc can also be accessed by a 
+window like this window. document.title and properties of the window object cannot be 
+accessed by the document object.
+
+
+7. example:  document.title :  will return the title of the document,
+             window.innerHeight : will return the height of the content area of the browser.
